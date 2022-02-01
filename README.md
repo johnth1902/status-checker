@@ -1,1 +1,1 @@
-# status-checker
+# Status-Checker App
