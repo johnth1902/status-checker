@@ -1,0 +1,10 @@
+providers:
+  - name: source1
+    url: http://prod-server/provider/source1/account/validate
+  - name: source2
+    url: http://prod-server/provider/source2/account/validate
+  - name: source3
+    url: http://prod-server/provider/source3/account/validate
+  - name: source4
+    url: http://prod-server/provider/source4/account/validate
+       

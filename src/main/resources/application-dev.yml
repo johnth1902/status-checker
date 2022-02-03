@@ -1,0 +1,10 @@
+providers:
+  - name: source1
+    url: http://localhost:8080/provider/source1/account/validate
+  - name: source2
+    url: http://localhost:8080/provider/source2/account/validate
+  - name: source3
+    url: http://localhost:8080/provider/source3/account/validate
+  - name: source4
+    url: http://localhost:8080/provider/source4/account/validate
+       
