@@ -39,7 +39,7 @@ public class ValidityService {
 					new ProviderRequest(validityRequest.getAccountNumber()), ProviderResponse.class)));
 		});
 
-		// collects responses and return
+		// collect responses and return
 		ValidityResponse response = new ValidityResponse();
 		sourceUrls.keySet().forEach(source -> {
 			try {
