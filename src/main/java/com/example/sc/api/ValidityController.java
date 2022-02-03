@@ -16,12 +16,12 @@ import com.example.sc.service.ValidityService;
 
 @RestController("validityStatusController")
 @RequestMapping("/validity")
-public class ValidityStatusController {
-	Logger logger = LoggerFactory.getLogger(ValidityStatusController.class);
+public class ValidityController {
+	Logger logger = LoggerFactory.getLogger(ValidityController.class);
 
 	private ValidityService validityService;
 
-	public ValidityStatusController(ValidityService validityService) {
+	public ValidityController(ValidityService validityService) {
 		this.validityService = validityService;
 	}
 
